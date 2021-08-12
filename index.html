@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/ab01d7eede/UntitledProject/style-svg.css">
+<script defer src="https://i.icomoon.io/public/temp/ab01d7eede/UntitledProject/svgxuse.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Aditii</title>
+</head>
+<!--
+The Aditii page has 
+    a top header with the Aditii logo on the left (font-family = Pattaya), a search bar in the middle, and the cart icon with amount on the right
+        a horizontal navigation bar with links for 
+            home
+            sale
+            handbags
+            wallets
+            accessories
+            mens store
+            shoes
+            vintage
+            services
+            contact us
+    a banner section for featured products with an image on the left with a header, text, a shop now link and five sliders
+    a section with three featured products, each with an image, a header, and a shop link, with left and right arrows one either side of the images
+    a section for featured products with a header and two lines of products, each with an image, a header, a price, and a buy now button with a light gray border left, top, and right, and a main color bottom border
+    the footer contains four lists with links for featured sale, mens store, women's store and quick links
+    the colophon on the bottom footer is centered
+-->
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="inner">
+                <h1>aditii</h1>
+
+                <!--search bar-->
+                <input type="search" placeholder="" id="search">
+                <img src="css/media/search.png" alt="search" id="search-icon">
+                <!--cart icon and cart total-->
+                <div class="cart-total">
+                    <img src="css/media/basket.png" alt="Your cart" id="cart">
+                    <p class="total" id="total">$300</p>
+                </div>
+            </div><!--end top header-->
+        </div>
+        <nav class="top-nav">
+            <div class="inner">
+                <ul class="header-nav">
+                    <li class="top-nav-list-item"><a href="#link">home</a></li>
+                    <li class="top-nav-list-item"><a href="#link">sale</a></li>
+                    <li class="top-nav-list-item"><a href="#link">men's store</a></li>
+                    <li class="top-nav-list-item"><a href="#link">women's store</a></li>
+                    <li class="top-nav-list-item"><a href="#link">shoes</a></li>
+                    <li class="top-nav-list-item"><a href="#link">accessories</a></li>
+                    <li class="top-nav-list-item"><a href="#link">vintage</a></li>
+                    <li class="top-nav-list-item"><a href="#link">services</a></li>
+                    <li class="top-nav-list-item"><a href="#link">contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--end of header-->
+
+    <main>
+        
+        <!--begin top section-->
+        
+        <section class="section top-section">
+            <div class="inner">
+                <div class=" product top-featured-product">
+                    <div class="image-div top-featured-product-image">
+                        <img src="css/media/levis-tee.png" alt="Cowhide Standard Crew tee" id="levis-tee">
+                    </div>
+                    <div class="top-featured-product-description">    
+                        <h2 class="sub-header top-featured-product">cowhide standard crew</h2>
+                        <p class="text product-text">White colored, short-sleeved, printed T-shirt for men by Levi's.  This crew-neck T-shirt is made of organic cotton and comes in a regular fit.</p>
+                        <a class="link shop-button" href="#link" id="top-shop-button">shop now</a>
+                        <div class="sliders">
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                            <div class="slider"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    
+        <!--top featured product section-->
+        <section class="section featured-product-section">    
+            <div class="arrow-button" id="left-arrow">
+                <a href="#link" class="arrow-link"><img src="css/media/325-circle-left.png" alt="left arrow image"></a>
+            </div>
+            <div class="inner">
+                <div class="product top-product" id="top-product-1">
+                    <img src="css/media/shoes-1.png" alt="shoes" class="product-image">
+                    <h3>branded shoes</h3>
+                    <div class="shop-button">
+                        <a class="link shop-button" href="#link">shop</a>
+                    </div>
+                </div>
+                <div class="product top-product" id="top-product-2">
+                    <img src="css/media/shoes-1.png" alt="t-shirt" class="product-image">
+                    <h3>branded t-shirts</h3>
+                    <div class="shop-button">
+                        <a class="link shop-button" href="#link">shop</a>
+                    </div>
+                </div>
+                <div class="product top-product" id="top-product-3">
+                    <img src="css/media/shoes-1.png" alt="t-shirt" class="product-image">
+                    <h3>accessories</h3>
+                    <div class="shop-button">
+                        <a class="link shop-button" href="#link">shop</a>
+                    </div>
+                </div>
+            </div>
+                <div class="arrow-button" id="right-arrow">
+                    <a href="#link" class="arrow-link"><img src="css/media/323-circle-right.png" alt="right arrow image"></a>
+                </div>
+        </section>
+        <!--end of top featured product section-->
+
+        <!--featured products section-->
+        
+        <section class="section featured-products-section">
+            <h2 class="sub-header" id="featured-products-header">featured products</h2>
+
+            <div class="inner">
+                <div class="product featured-product" id="product-1">
+                    <img src="css/media/shoes-1.png" alt="shoes" class="product-image">
+                    <h3 class="sub-header product-name">branded shoe</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+                <div class="product featured-product" id="product-2">
+                    <img src="css/media/shoes-1.png" alt="tees" class="product-image">
+                    <h3 class="sub-header product-name">branded tees</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+                <div class="product featured-product" id="product-3">
+                    <img src="css/media/shoes-1.png" alt="shoes" class="product-image">
+                    <h3 class="sub-header product-name">branded shoe</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+                <div class="product featured-product" id="product-4">
+                    <img src="css/media/shoes-1.png" alt="shoes" class="product-image">
+                    <h3 class="sub-header product-name">branded shoe</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+                <div class="product featured-product" id="product-5">
+                    <img src="css/media/shoes-1.png" alt="handbag" class="product-image">
+                    <h3 class="sub-header product-name">ems women's bag</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+                <div class="product featured-product" id="product-6">
+                    <img src="css/media/shoes-1.png" alt="cargos" class="product-image">
+                    <h3 class="sub-header product-name">branded cargos</h3>
+                    <p class="sub-header product-price">$300</p>
+                    <button class="button buy-now-button">buy now</button>
+                </div>
+            </div>     
+        </section>
+        <!--end of featured product section-->
+    </main>
+
+    <footer class="footer">
+        <div class="inner">
+            <div class="footer-nav-list" id="footer-nav-1">
+                <h2 class="footer-header">featured sale</h2>    
+                <ul class="footer-nav sale-list">
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Alexis Hudson</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">American Apparel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Ben Sherman</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Big Buddha</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Chanel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Christian Audigier</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Coach</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Cole Haan</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-list" id="footer-nav-2">
+                <h2 class="footer-header">men's store</h2>
+                <ul class="footer-nav mens-list">
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Alexis Hudson</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">American Apparel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Ben Sherman</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Big Buddha</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Chanel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Christian Audigier</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Coach</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Cole Haan</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-list" id="footer-nav-3">
+                <h2 class="footer-header">women's store</h2>
+                <ul class="footer-nav womens-list">
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Alexis Hudson</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">American Apparel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Ben Sherman</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Big Buddha</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Chanel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Christian Audigier</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Coach</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Cole Haan</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-list" id="footer-nav-4">
+                <h2 class="footer-header">quick links</h2>
+                <ul class="footer-nav quick-links-list">
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Alexis Hudson</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">American Apparel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Ben Sherman</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Big Buddha</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Chanel</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Christian Audigier</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Coach</a></li>
+                    <li class="footer-nav-list-item featured-sale"><a href="#link">Cole Haan</a></li>
+                </ul>
+            </div>        
+        </div> 
+            <div class="colophon">
+                <p class="colophon-text">Copyright &copy;2021 &middot; LHP</p>
+            </div>
+        <!--end of inner for footer-->
+    </footer>
+</body>
+</html>
