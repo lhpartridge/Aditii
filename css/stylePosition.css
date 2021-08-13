@@ -214,17 +214,17 @@ h1 {
     border-right: none;
 }
 
-.top-section .inner {
+.banner-section .inner {
     position: relative;
 }
-.top-section {
+.banner-section {
     position:absolute;
     min-height: 450px;
     background-color: var(--bannerColor);
     background: radial-gradient(at 0% 0%, var(--footerColor), var(--colophonColor) );
 }
 
-.inner .top-featured-product {
+.inner .banner-product {
     height: auto;
     min-height: 400px;
 }
@@ -249,14 +249,14 @@ main {
     position: relative;
 }
 
-.top-featured-product-description {
+.banner-product-description {
     position: absolute;
     left: 50%;
     max-width: 450px;
     min-height: 200px;
 }
 
-.top-featured-product-description h2 {
+.banner-product-description h2 {
     margin: 0;
     padding: 0;
     color: var(--productText);

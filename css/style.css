@@ -121,67 +121,80 @@ header {
 }
 
 .top-header .inner {
-    position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    width: 80%;
     height: 100px;
-    display: inline;
 }
 
-/*
-
-.top-header .inner p {
-    display: inline;
-    margin: 20px 0 20px 100px;
-    background-color: var(--topHeaderColor);
-}
-*/
 h1 {
-    position: absolute;
     height: 40px;
-    top: 20px;
-    left: 120px;
     margin: 0;
     /*
     display: inline;
-    margin: 0 0 0 10%;*/
-    padding: 10px 0;90
+    margin: 0 0 0 10%;
+    padding: 10px 0; */
     font-family: var(--headerFont);
+    font-size: 40px;
     text-transform: capitalize;
     color: var(--topHeaderColor);
+} 
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 320px;
+    margin: 0;
+    padding: 0;
 }
 
 #search {
-    position: absolute;
     height: 30px;
-    top: 30px;
-    left: 400px;
-    width: 300px;
-    margin: 0 100px 0 50px;
+    width: 280px;
+    border: solid 2px lightgray;
+}
+
+.icon-search {
+    margin: 10px 0 15px 10px;
+    font-size: 24px;
+    color: lightgray;
+}
+
+.icon-basket {
+    margin: 0px auto;
+    font-size: 40px;
+    color: var(--bannerColor)
 }
 
 .cart-total {
-    position: absolute;
-    top: 30px;
-    left: 900px;
-    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
     width: 200px;
     height: 30px;
     margin: 0;
 }
 
 .cart-total p {
-    position: absolute;
- margin: 0;
- width: 30px;   
-    
+    margin: 0;
+    width: 30px;       
+    font-family: var(--subheaderFont);
+    font-size: 30px;
+    color: gray;
 }
-.top-nav .inner {
-    position: relative;
-    top: 60px;
-    width: 80%;
-    left: 50px;
+
+.top-nav {
     background-color: var(--bannerColor);
 }
+
+.top-nav .inner {
+width: 80%;
+}
+
+    
 
 .header-nav {
     margin:0;
@@ -208,11 +221,13 @@ h1 {
 }
 
 /*main*/
+main {
+    min-height: 400px;
+}
 
-
-.top-section .inner {
-    position: relative;
-    top: 100px;
+.banner-section .inner {
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     min-height: 420px;
     border: 1px solid blue;
@@ -222,8 +237,7 @@ h1 {
 
 #levis-tee {
     position: absolute;
-    top: 30px;
-    left: 10%;
+
     width: 40%;
     max-width: 300px;
     min-width: 220px;
@@ -234,7 +248,7 @@ h1 {
 
 
 
-.top-featured-product-description h2 {
+.banner-product-description h2 {
     width: 350px;
     color: var(--productText);
     font-size: 48px;
@@ -244,7 +258,7 @@ h1 {
 }
 
 
-.top-product {
+.banner-product {
     position: absolute;
     
     border: 1px solid red;

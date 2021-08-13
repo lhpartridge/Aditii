@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Aditii</title>
 </head>
 <!--
@@ -43,10 +43,10 @@ The Aditii page has
                 <h1>aditii</h1>
 
                 <!--search bar-->
-                <input type="search" placeholder="" id="search">
-                <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
-                <!--
-                <img src="css/media/search.png" alt="search" id="search-icon">-->
+                <div class="search-bar">
+                    <input type="search" placeholder="" id="search">
+                    <svg class="icon icon-search"><use xlink:href="#icon-search"></use></svg>
+                </div>
                 <!--cart icon and cart total-->
                 <div class="cart-total">
                     <a href="#link"><svg class="icon icon-basket"><use xlink:href="#icon-basket"></use></svg></a>
@@ -75,15 +75,14 @@ The Aditii page has
     <main>
         
         <!--begin top section-->
-        
-        <section class="section top-section">
+        <section class="section banner-section">
             <div class="inner">
-                <div class=" product top-featured-product">
-                    <div class="image-div top-featured-product-image">
+                <div class=" product banner-product">
+                    <div class="image-div banner-product-image">
                         <img src="css/media/levis-tee.png" alt="Cowhide Standard Crew tee" id="levis-tee">
                     </div>
-                    <div class="top-featured-product-description">    
-                        <h2 class="sub-header top-featured-product">cowhide standard crew</h2>
+                    <div class="banner-product-description">    
+                        <h2 class="sub-header banner-product">cowhide standard crew</h2>
                         <p class="text product-text">White colored, short-sleeved, printed T-shirt for men by Levi's.  This crew-neck T-shirt is made of organic cotton and comes in a regular fit.</p>
                         <a class="link shop-button" href="#link" id="top-shop-button">shop now</a>
                         <div class="sliders">
@@ -99,11 +98,13 @@ The Aditii page has
         </section>
     
         <!--top featured product section-->
-        <section class="section featured-product-section">    
+        <!--
+        <section class="section banner-section">    
             <div class="arrow-button" id="left-arrow">
-                
-                <a href="#link" class="arrow-link">
-                    <p class="arrow-button" id="left-arrow">&lt;</p></a>
+                <p class="arrow-button" id="left-arrow"> 
+                    <a href="#link" class="arrow-link">
+                    &lt;</a>
+                </p>
             </div>
             <div class="inner">
                 <div class="product top-product" id="top-product-1">
@@ -128,14 +129,16 @@ The Aditii page has
                     </div>
                 </div>
             </div>
-                <div class="arrow-button" id="right-arrow">
-                    <a href="#link" class="arrow-link"><p class="arrow-button" id="right-arrow">&gt;</p></a>
-                </div>
-        </section>
+            <div class="arrow-button" id="right-arrow">
+                <p class="arrow-button" id="right-arrow">
+                    <a href="#link" class="arrow-link">&gt;></a>
+                </p>
+            </div>
+        </section>-->
         <!--end of top featured product section-->
 
         <!--featured products section-->
-        
+        <!--
         <section class="section featured-products-section">
             <h2 class="sub-header" id="featured-products-header">featured products</h2>
 
@@ -177,7 +180,7 @@ The Aditii page has
                     <button class="button buy-now-button">buy now</button>
                 </div>
             </div>     
-        </section>
+        </section>-->
         <!--end of featured product section-->
     </main>
 
