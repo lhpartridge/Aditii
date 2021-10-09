@@ -139,6 +139,10 @@ h1 {
     color: var(--bannerColor);
 }
 
+.search-div {
+    position: relative;
+}
+
 #search {
     position: absolute;
     top: 20px;
@@ -157,7 +161,7 @@ h1 {
     top: 22px;
     width: 16px;
     height: 24px;
-    left: 50%;
+    left: 30%;
     padding-top: 5px;
     color: gray;
 }
